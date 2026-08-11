@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.2.3")
+        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.3.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationOguryPresageAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.2.3.0.zip",
-            checksum: "c56c5aaa2ff0f15724aa5aa199ecb9d3f52bcaf1cb14f7276cb5747616a7b517"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.3.0.0.zip",
+            checksum: "84865062c2be95f52482848b650d337950d6ce9c23c23fe8c3721266d9d9036d"
         )
     ]
 )
