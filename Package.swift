@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationOguryPresageAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationOguryPresageAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationOguryPresageAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.3.0.0.zip",
-            checksum: "84865062c2be95f52482848b650d337950d6ce9c23c23fe8c3721266d9d9036d"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.3.0.1.zip",
+            checksum: "4b2c69815e36b6118aa4f83da079268e1027e6e6445b0d7628be72cba78f4921"
         )
     ]
 )
