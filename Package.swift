@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationOguryPresageAdapter",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "AppLovinMediationOguryPresageAdapter",
@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.3.0")
+        .package(url: "https://github.com/Ogury/ogury-sdk-spm.git", exact: "5.3.1")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationOguryPresageAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.3.0.1.zip",
-            checksum: "4b2c69815e36b6118aa4f83da079268e1027e6e6445b0d7628be72cba78f4921"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/ogurypresage-adapter/AppLovinMediationOguryPresageAdapter-5.3.1.0.zip",
+            checksum: "1a3423e333de432fe0be11ef862b3431b62a206506cf74476f001633685591d9"
         )
     ]
 )
